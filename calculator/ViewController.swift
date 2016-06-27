@@ -54,6 +54,9 @@ class ViewController: UIViewController {
         x.text=x.text!+"0"
     }
 
+
+
+
     @IBAction func add(sender: AnyObject) {
         if flag==0{
             temp=(Double)(x.text!)!
@@ -83,7 +86,7 @@ class ViewController: UIViewController {
         if flag==0{
             temp=(Double)(x.text!)!
             x.text=""
-            flag=3
+            flag=4
         }
         flag=4
     }
@@ -114,7 +117,7 @@ class ViewController: UIViewController {
         }
     }
     @IBAction func clear(sender: AnyObject) {
-        temp=0
+        temp=0.0
         x.text=""
         flag=0
     }
